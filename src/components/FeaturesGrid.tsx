@@ -55,7 +55,7 @@ const FeaturesGrid = () => {
             Everything You Need to Never Miss a Lead
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Built specifically for med spas who want to maximize every opportunity
+            Built for businesses that want to maximize every opportunity
           </p>
         </motion.div>
 

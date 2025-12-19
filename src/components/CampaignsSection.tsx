@@ -7,7 +7,7 @@ const CampaignsSection = () => {
       icon: Heart,
       title: 'We Miss You',
       description: "Reconnect with past clients who haven't visited in 3+ months",
-      example: 'Hi [Name]! We miss you at [Spa Name]. Book your next appointment and save 20% this month.',
+      example: 'Hi [Name]! We miss you at [Business Name]. Book your next visit and save 20% this month.',
       color: 'from-pink-500 to-rose-500',
     },
     {
@@ -27,7 +27,7 @@ const CampaignsSection = () => {
     {
       icon: Cake,
       title: 'Birthday / Anniversary',
-      description: 'Personalized touchpoints that build loyalty and drive bookings',
+      description: 'Personalized touchpoints that build loyalty and drive conversions',
       example: 'Happy Birthday, [Name]! Celebrate with a special treatment - 25% off this month.',
       color: 'from-yellow-500 to-orange-500',
     },
@@ -49,7 +49,7 @@ const CampaignsSection = () => {
             </h2>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
               Most text automation tools only handle missed calls. We go further with ongoing SMS marketing 
-              that reactivates past customers and keeps your schedule full.
+              that reactivates past customers and drives more conversions.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Our monthly campaigns are designed to feel personal, not spammy. Each message is crafted to 

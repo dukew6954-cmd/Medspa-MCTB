@@ -23,7 +23,7 @@ const FinalCTA = () => {
             Stop losing leads you already paid to get.
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-            We'll customize this to your med spa in days—and walk you through it over text or a quick call.
+            We'll customize this to your business in days—and walk you through it over text or a quick call.
           </p>
           <motion.button
             onClick={scrollToDemo}
@@ -72,7 +72,7 @@ const FinalCTA = () => {
                   name="business"
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                  placeholder="Aura Med Spa"
+                  placeholder="Your Business Name"
                 />
               </div>
             </div>
@@ -100,7 +100,7 @@ const FinalCTA = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                  placeholder="john@auramedspa.com"
+                  placeholder="john@yourbusiness.com"
                 />
               </div>
             </div>

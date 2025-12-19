@@ -18,10 +18,10 @@ const Footer = () => {
               <div className="bg-gradient-to-br from-primary-500 to-primary-700 p-2 rounded-lg">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-white">Med Spa Text</span>
+              <span className="text-xl font-bold text-white">SignalVia</span>
             </div>
             <p className="text-sm text-gray-400">
-              Turn missed calls into booked appointments with automated SMS marketing.
+              Turn missed calls into converted leads with automated SMS marketing.
             </p>
           </div>
 
@@ -73,8 +73,8 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:hello@medspatext.com" className="hover:text-white transition-colors">
-                  hello@medspatext.com
+                <a href="mailto:hello@signalvia.com" className="hover:text-white transition-colors">
+                  hello@signalvia.com
                 </a>
               </li>
               <li>
@@ -88,7 +88,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Med Spa Text Automation. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SignalVia. All rights reserved.</p>
           <p className="mt-4 md:mt-0">
             TCPA compliant • HIPAA considerations apply • Message and data rates may apply
           </p>

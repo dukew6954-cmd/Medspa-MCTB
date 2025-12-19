@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 
 const SocialProof = () => {
   const logos = [
-    { name: 'Spa Elite', color: 'from-blue-500 to-blue-600' },
-    { name: 'Aura Med Spa', color: 'from-purple-500 to-purple-600' },
-    { name: 'Glow Clinic', color: 'from-pink-500 to-pink-600' },
-    { name: 'Serenity Spa', color: 'from-indigo-500 to-indigo-600' },
+    { name: 'Elite Services', color: 'from-blue-500 to-blue-600' },
+    { name: 'Premier Solutions', color: 'from-purple-500 to-purple-600' },
+    { name: 'Peak Performance', color: 'from-pink-500 to-pink-600' },
+    { name: 'Apex Business', color: 'from-indigo-500 to-indigo-600' },
   ]
 
   return (
@@ -18,7 +18,7 @@ const SocialProof = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          Trusted by clinics like yours
+          Trusted by businesses like yours
         </motion.p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
           {logos.map((logo, index) => (

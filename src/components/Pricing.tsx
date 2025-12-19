@@ -101,7 +101,7 @@ const Pricing = () => {
             <div className="mb-6 border-t border-gray-200 pt-4 mt-auto">
               <h4 className="text-sm font-semibold text-gray-900 mb-2">Best for</h4>
               <p className="text-sm text-gray-700">
-                Small clinics just getting started with text automation who need basic missed call recovery.
+                Small businesses just getting started with text automation who need basic missed call recovery.
               </p>
             </div>
 
@@ -165,7 +165,7 @@ const Pricing = () => {
             <div className="mb-6 border-t border-gray-200 pt-4 mt-auto">
               <h4 className="text-sm font-semibold text-gray-900 mb-2">Best for</h4>
               <p className="text-sm text-gray-700">
-                Most med spas, clinics missing calls after hours, and owners who want simple, reliable automation.
+                Businesses missing calls after hours, and owners who want simple, reliable automation.
               </p>
             </div>
 
@@ -250,7 +250,7 @@ const Pricing = () => {
             <div className="mb-6 border-t border-white/20 pt-4 mt-auto">
               <h4 className="text-sm font-semibold mb-2">Best for</h4>
               <p className="text-sm text-white/90">
-                High-volume med spas, clinics with lots of inbound texts, and owners who want maximum automation.
+                High-volume businesses with lots of inbound texts, and owners who want maximum automation.
               </p>
             </div>
 

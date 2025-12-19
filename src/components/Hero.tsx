@@ -35,7 +35,7 @@ const Hero = () => {
             >
               Missed calls become{' '}
               <span className="bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent">
-                booked appointments
+                converted leads
               </span>
               {' '}— automatically.
             </motion.h1>
@@ -46,8 +46,8 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
-              Turn every missed call into a lead. Reactivate past clients with smart SMS campaigns. 
-              Let AI handle FAQs and push bookings—even when your front desk is busy.
+              Turn every missed call into a lead. Reactivate past customers with smart SMS campaigns. 
+              Let AI handle FAQs and push conversions—even when your team is busy.
             </motion.p>
 
             {/* Bullet Points */}
@@ -70,7 +70,7 @@ const Hero = () => {
                   <Users className="w-5 h-5 text-purple-600" />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Reactivate past clients with monthly text campaigns</p>
+                  <p className="font-semibold text-gray-900">Reactivate past customers with monthly text campaigns</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -78,7 +78,7 @@ const Hero = () => {
                   <MessageSquare className="w-5 h-5 text-primary-600" />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">AI answers FAQs and pushes booking when staff is busy</p>
+                  <p className="font-semibold text-gray-900">AI answers FAQs and drives conversions when your team is busy</p>
                 </div>
               </div>
             </motion.div>
@@ -117,15 +117,15 @@ const Hero = () => {
             >
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>Built for Med Spas</span>
+                <span>Works with any business</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>Works with your booking link</span>
+                <span>Integrates with your systems</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>No new software for staff</span>
+                <span>No new software for your team</span>
               </div>
             </motion.div>
           </motion.div>

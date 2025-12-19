@@ -11,9 +11,9 @@ const DemoShowcase = () => {
       messages: [
         { type: 'system', text: 'Missed call from Sarah M. at 2:15 PM', icon: PhoneMissed },
         { type: 'outbound', text: 'Hi Sarah! We missed your call. How can we help you today?', time: '2:15 PM' },
-        { type: 'inbound', text: 'Hi! I was calling about Botox pricing', time: '2:16 PM' },
-        { type: 'outbound', text: 'Great! Our Botox treatments start at $12/unit. Would you like to schedule a consultation?', time: '2:16 PM' },
-        { type: 'action', text: 'Book Now', icon: Calendar },
+        { type: 'inbound', text: 'Hi! I was calling about your services', time: '2:16 PM' },
+        { type: 'outbound', text: 'Great! We\'d love to help. Would you like to schedule a consultation or get more information?', time: '2:16 PM' },
+        { type: 'action', text: 'Get Started', icon: Calendar },
       ],
     },
     'follow-up': {
@@ -23,18 +23,18 @@ const DemoShowcase = () => {
         { type: 'system', text: 'No response after 5 minutes', icon: MessageSquare },
         { type: 'outbound', text: "Just checking in! We'd love to help with any questions about our services.", time: '2:20 PM' },
         { type: 'inbound', text: 'Thanks! What are your hours?', time: '2:22 PM' },
-        { type: 'outbound', text: "We're open Mon-Fri 9am-7pm, Sat 10am-4pm. Would you like to book?", time: '2:22 PM' },
-        { type: 'action', text: 'Book Now', icon: Calendar },
+        { type: 'outbound', text: "We're open Mon-Fri 9am-7pm, Sat 10am-4pm. Would you like to get started?", time: '2:22 PM' },
+        { type: 'action', text: 'Get Started', icon: Calendar },
       ],
     },
     'ai-faq': {
       title: 'AI FAQ Assistant',
       messages: [
         { type: 'inbound', text: 'What services do you offer?', time: '2:15 PM' },
-        { type: 'outbound', text: 'We offer Botox, fillers, laser treatments, facials, and body contouring. Which service interests you?', time: '2:15 PM' },
-        { type: 'inbound', text: 'How much does Botox cost?', time: '2:16 PM' },
-        { type: 'outbound', text: 'Botox starts at $12/unit. A typical treatment is 20-40 units ($240-$480). Would you like to schedule a consultation?', time: '2:16 PM' },
-        { type: 'action', text: 'Book Now', icon: Calendar },
+        { type: 'outbound', text: 'We offer a full range of services tailored to your needs. Which area interests you most?', time: '2:15 PM' },
+        { type: 'inbound', text: 'What are your prices?', time: '2:16 PM' },
+        { type: 'outbound', text: 'Our pricing varies based on your specific needs. Would you like to schedule a consultation to discuss options?', time: '2:16 PM' },
+        { type: 'action', text: 'Get Started', icon: Calendar },
       ],
     },
   }
@@ -108,7 +108,7 @@ const DemoShowcase = () => {
                     <MessageSquare className="w-6 h-6" />
                   </div>
                   <div>
-                    <div className="font-bold text-lg">Med Spa Text Automation</div>
+                    <div className="font-bold text-lg">SignalVia</div>
                     <div className="text-xs opacity-90 flex items-center gap-2">
                       <span className="w-2 h-2 bg-green-300 rounded-full animate-pulse"></span>
                       Online • Responds instantly

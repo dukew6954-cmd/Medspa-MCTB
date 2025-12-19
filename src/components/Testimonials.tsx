@@ -4,22 +4,22 @@ import { Star } from 'lucide-react'
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Dr. Sarah Chen',
-      role: 'Owner, Aura Med Spa',
-      content: 'We were losing leads left and right during peak hours. Now every missed call gets a text within seconds, and our booking rate has improved significantly. The AI FAQ feature is a game-changer.',
+      name: 'Sarah Chen',
+      role: 'Owner, Elite Services',
+      content: 'We were losing leads left and right during peak hours. Now every missed call gets a text within seconds, and our conversion rate has improved significantly. The AI FAQ feature is a game-changer.',
       metric: 'More recovered leads',
     },
     {
       name: 'Michael Rodriguez',
-      role: 'Operations Manager, Glow Clinic',
-      content: 'The win-back campaigns have been incredible. We\'ve reactivated clients we hadn\'t seen in over a year. The ROI is clear, and our front desk team loves having less pressure during busy times.',
-      metric: 'Higher rebooking rate',
+      role: 'Operations Manager, Premier Solutions',
+      content: 'The win-back campaigns have been incredible. We\'ve reactivated customers we hadn\'t seen in over a year. The ROI is clear, and our team loves having less pressure during busy times.',
+      metric: 'Higher conversion rate',
     },
     {
       name: 'Jennifer Park',
-      role: 'Founder, Serenity Spa',
-      content: 'Setup was seamless, and the team trained the AI on all our services and pricing. Now it handles questions accurately even when we\'re swamped. This pays for itself in recovered appointments.',
-      metric: 'Less front desk stress',
+      role: 'Founder, Peak Performance',
+      content: 'Setup was seamless, and the team trained the AI on all our services and pricing. Now it handles questions accurately even when we\'re swamped. This pays for itself in recovered leads.',
+      metric: 'Less team stress',
     },
   ]
 
@@ -34,10 +34,10 @@ const Testimonials = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Real Results from Real Clinics
+            Real Results from Real Businesses
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            See how med spas like yours are turning missed calls into booked appointments
+            See how businesses like yours are turning missed calls into converted leads
           </p>
         </motion.div>
 
@@ -82,7 +82,7 @@ const Testimonials = () => {
           transition={{ delay: 0.4 }}
         >
           <p>
-            *Results vary by clinic. Testimonials represent individual experiences and may not be typical.
+            *Results vary by business. Testimonials represent individual experiences and may not be typical.
           </p>
         </motion.div>
       </div>

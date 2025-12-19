@@ -20,7 +20,7 @@ const FAQ = () => {
     },
     {
       question: 'How does AI learn our policies?',
-      answer: 'We provide a simple onboarding form where you share your services, pricing ranges, hours, location, and policies. Our team then trains the AI specifically for your med spa. You can update this anytime.',
+      answer: 'We provide a simple onboarding form where you share your services, pricing ranges, hours, location, and policies. Our team then trains the AI specifically for your business. You can update this anytime.',
     },
     {
       question: 'What about compliance/consent?',
@@ -36,7 +36,7 @@ const FAQ = () => {
     },
     {
       question: 'Will this replace my receptionist?',
-      answer: 'No—this supports them. Your receptionist can focus on in-person clients and complex questions while automation handles after-hours calls, FAQs, and follow-ups. It reduces stress, not staff.',
+      answer: 'No—this supports them. Your team can focus on in-person customers and complex questions while automation handles after-hours calls, FAQs, and follow-ups. It reduces stress, not staff.',
     },
   ]
 

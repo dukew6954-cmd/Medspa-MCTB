@@ -37,7 +37,7 @@ const PhoneConversation = () => {
           <div className="bg-gradient-to-r from-primary-500 to-purple-500 px-6 py-3 text-white text-sm font-medium flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4" />
-              <span>Med Spa Text</span>
+              <span>SignalVia</span>
             </div>
             <div className="text-xs">9:41 AM</div>
           </div>
@@ -99,7 +99,7 @@ const PhoneConversation = () => {
               >
                 <div className="bg-gradient-to-r from-primary-500 to-purple-500 rounded-2xl rounded-tl-sm p-4 shadow-lg max-w-[80%]">
                   <p className="text-sm text-white mb-3">
-                    Ready to book? Click below to schedule your appointment:
+                    Ready to get started? Click below to connect with us:
                   </p>
                   <motion.button
                     className="bg-white text-primary-600 px-4 py-2 rounded-lg font-semibold text-sm w-full flex items-center justify-center space-x-2"
@@ -107,7 +107,7 @@ const PhoneConversation = () => {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Calendar className="w-4 h-4" />
-                    <span>Book Now</span>
+                    <span>Get Started</span>
                   </motion.button>
                   <p className="text-xs text-primary-100 mt-2">2:25 PM</p>
                 </div>

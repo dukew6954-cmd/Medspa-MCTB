@@ -46,7 +46,7 @@ const ProblemSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Missed calls don't just{' '}
             <span className="text-gray-400 line-through decoration-2">disappear</span>
-            {' '}— they go to the next med spa
+            {' '}— they go to your competition
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Every unanswered call is revenue walking out the door to your competition
