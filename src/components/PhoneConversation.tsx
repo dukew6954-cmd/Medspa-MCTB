@@ -119,7 +119,7 @@ const PhoneConversation = () => {
 
       {/* Step Indicators */}
       <div className="flex justify-center space-x-2 mt-6">
-        {steps.map((step, index) => (
+        {steps.map((_step, index) => (
           <motion.div
             key={index}
             className={`w-2 h-2 rounded-full ${
@@ -136,4 +136,5 @@ const PhoneConversation = () => {
 }
 
 export default PhoneConversation
+
 

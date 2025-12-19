@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { PhoneMissed, MessageSquare, Brain, Calendar } from 'lucide-react'
+import { PhoneMissed, MessageSquare, Calendar } from 'lucide-react'
 
 const DemoShowcase = () => {
   const [activeTab, setActiveTab] = useState<'missed-call' | 'follow-up' | 'ai-faq'>('missed-call')
